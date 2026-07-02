@@ -1,6 +1,6 @@
 class Selectionsort{
 
-public static void main(String args[]){
+public static void main(String[] args){
     int [] nums ={52,85,54,66,96,98,63,36,65,44,58,59,52,100};
     System.out.print(nums);
     int sizeOfArray = nums.length;
