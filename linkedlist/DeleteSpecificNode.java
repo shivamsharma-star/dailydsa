@@ -52,7 +52,7 @@ public class DeleteSpecificNode {
         System.out.println("Before deletion:");
         traverseAndPrint(node1);
 
-        node1 = deleteSpecificNode(node1, node4);
+        node1 = deleteSpecificNode(node1, node5);
 
         System.out.println("\nAfter deletion:");
         traverseAndPrint(node1);
