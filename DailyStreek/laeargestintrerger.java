@@ -32,6 +32,4 @@ class Solution {
 
         return answer;
     }
-} {
-    
 }
