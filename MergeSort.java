@@ -18,7 +18,7 @@ public class MergeSort {
 
         double[] sortedLeft = mergeSort(leftHalf);
         double[] sortedRight = mergeSort(rightHalf);
-
+      
         return merge(sortedLeft, sortedRight);
     }
 
