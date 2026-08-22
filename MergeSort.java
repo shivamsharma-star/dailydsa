@@ -16,6 +16,8 @@ public class MergeSort {
         double[] leftHalf = Arrays.copyOfRange(arr, 0, mid);
         double[] rightHalf = Arrays.copyOfRange(arr, mid, arr.length);
 
+        
+
         double[] sortedLeft = mergeSort(leftHalf);
         double[] sortedRight = mergeSort(rightHalf);
 
