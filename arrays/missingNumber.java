@@ -10,4 +10,4 @@ class Solution {
         int missing = sum2-sum;
         return missing;
     }
-}
+}    
