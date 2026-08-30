@@ -47,5 +47,3 @@ public class MergeSort {
         return result;
     }
 }
-
-//Java
