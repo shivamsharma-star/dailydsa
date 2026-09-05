@@ -30,6 +30,4 @@ public class Solution {
             end--;
         }
     }
-} {
-    
 }
