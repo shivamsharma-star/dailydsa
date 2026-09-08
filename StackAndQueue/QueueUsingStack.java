@@ -29,11 +29,10 @@ class MyQueue {
                 mystack2.push(mystack1.pop());
             }
         }
-
         return mystack2.peek();
     }
 
     public boolean empty() {
         return mystack1.isEmpty() && mystack2.isEmpty();
     }
-}
+} 
