@@ -18,7 +18,6 @@ class MyQueue {
                 mystack2.push(mystack1.pop());
             }
         }
-
         return mystack2.pop();
     }
 
