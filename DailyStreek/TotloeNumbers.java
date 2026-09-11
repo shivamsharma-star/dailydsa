@@ -11,8 +11,8 @@ class Solution {
 
             for (int j = 0; j < digits.length; j++) {
 
-                // Same copy cannot be used twice
-                if (j == i) continue;
+                
+                if (j == i) continue; 
 
                 for (int k = 0; k < digits.length; k++) {
 
@@ -37,5 +37,5 @@ class Solution {
 
         return count;
     } 
-    
+
 } 
