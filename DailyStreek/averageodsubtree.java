@@ -27,6 +27,4 @@ public class Solution {
 
         return new int[]{sum, count};
     }
-} {
-    
-}
+} 
