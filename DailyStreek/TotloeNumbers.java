@@ -16,7 +16,7 @@ class Solution {
 
                 for (int k = 0; k < digits.length; k++) {
 
-                    // Same copy cannot be used twice
+                   
                     if (k == i || k == j) continue;
 
                     // Last digit must be even
