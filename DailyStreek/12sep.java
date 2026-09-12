@@ -123,7 +123,7 @@ class Solution {
                 left = mid + 1;
             }
         }
-
+// return statement for the next non-overlapping interval index
         return left;
     }
 
