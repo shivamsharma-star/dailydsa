@@ -22,7 +22,7 @@ class Solution {
             this.ids = ids;
         }
     }
-
+// Function to find the maximum weight and corresponding indices
     public int[] maximumWeight(List<List<Integer>> intervals) {
 
         int n = intervals.size();
@@ -101,7 +101,7 @@ class Solution {
                 }
             }
         }
-
+// return statement for the maximum weight and corresponding indices
         return dp[0][4].ids;
     }
 
