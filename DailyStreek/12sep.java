@@ -137,9 +137,9 @@ class Solution {
                 return Integer.compare(a[i], b[i]);
             }
         }
+// return statememnt for comparing lengths of arrays if all elements are equal
 
 
-        
         return Integer.compare(a.length, b.length);
     }
 }    
