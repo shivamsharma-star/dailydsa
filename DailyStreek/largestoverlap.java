@@ -1,0 +1,42 @@
+class Solution {
+    public int largestOverlap(int[][] img1, int[][] img2) {
+
+        int n = img1.length;
+        int max = 0;
+
+        // Row shift
+        for (int dr = -n + 1; dr < n; dr++) {
+
+            // Column shift
+            for (int dc = -n + 1; dc < n; dc++) {
+
+                int count = 0;
+
+                // Check every cell of img1
+                for (int i = 0; i < n; i++) {
+                    for (int j = 0; j < n; j++) {
+
+                        if (img1[i][j] == 1) {
+
+                            int ni = i + dr;
+                            int nj = j + dc;
+
+                            // shifted position is inside img2
+                            if (ni >= 0 && ni < n &&
+                                nj >= 0 && nj < n) {
+
+                                if (img2[ni][nj] == 1) {
+                                    count++;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                max = Math.max(max, count);
+            }
+        }
+
+        return max;
+    }
+}
