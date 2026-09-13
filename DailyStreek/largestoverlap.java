@@ -21,7 +21,7 @@ class Solution {
                             int ni = i + dr;
                             int nj = j + dc;
 
-                            // shifted position is inside img2
+                          
                             if (ni >= 0 && ni < n &&
                                 nj >= 0 && nj < n) {
 
