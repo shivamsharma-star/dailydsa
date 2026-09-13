@@ -7,7 +7,7 @@ class Solution {
         
         for (int dr = -n + 1; dr < n; dr++) {
 
-            // Column shift
+            
             for (int dc = -n + 1; dc < n; dc++) {
 
                 int count = 0;
