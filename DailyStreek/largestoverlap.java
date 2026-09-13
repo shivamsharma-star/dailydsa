@@ -4,10 +4,10 @@ class Solution {
         int n = img1.length;
         int max = 0;
 
-        
+        // Try all possible translations of img1 over img2
         for (int dr = -n + 1; dr < n; dr++) {
 
-            
+
             for (int dc = -n + 1; dc < n; dc++) {
 
                 int count = 0;
