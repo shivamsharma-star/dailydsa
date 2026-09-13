@@ -4,7 +4,7 @@ class Solution {
         int n = img1.length;
         int max = 0;
 
-        // Row shift
+        
         for (int dr = -n + 1; dr < n; dr++) {
 
             // Column shift
