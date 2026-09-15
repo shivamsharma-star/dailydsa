@@ -2,7 +2,6 @@ class Solution {
     public int maxPalindromes(String s, int k) {
         int n = s.length();
 
-        
         boolean[][] palindrome = new boolean[n][n];
 
        
@@ -37,7 +36,7 @@ class Solution {
                 }
             }
         }
-
+// return the maximum number of non-overlapping palindromic substrings of length at least k
         return dp[n];
     }
 }
