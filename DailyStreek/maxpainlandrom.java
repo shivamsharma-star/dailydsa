@@ -2,7 +2,7 @@ class Solution {
     public int maxPalindromes(String s, int k) {
         int n = s.length();
 
-        // palindrome[i][j] = true if s[i...j] is palindrome
+        
         boolean[][] palindrome = new boolean[n][n];
 
        
