@@ -17,7 +17,7 @@ class Solution {
             }
         }
 
-        // dp[i] = maximum palindromes using first i characters
+        
         int[] dp = new int[n + 1];
 
         for (int end = 1; end <= n; end++) {
