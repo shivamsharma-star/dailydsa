@@ -22,7 +22,7 @@ class Solution {
 
         for (int end = 1; end <= n; end++) {
 
-            // Don't select a palindrome ending at end-1
+           
             dp[end] = dp[end - 1];
 
             for (int start = 0; start < end; start++) {
