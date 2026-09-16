@@ -12,7 +12,7 @@ class Solution {
                 dp[j] = (dp[j] + dp[j - 1]) % MOD;
             }
         }
-
+//  return the number of ways to choose k non-overlapping segments from n points
         return (int) dp[2 * k];
     }
 }
