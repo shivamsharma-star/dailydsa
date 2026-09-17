@@ -3,7 +3,7 @@ class MinSumOfLengths {
         int n = arr.length;
         int ans = Integer.MAX_VALUE;
 
-        // best[i] = minimum length of a target-sum subarray
+        
         // ending at or before index i
         int[] best = new int[n];
         Arrays.fill(best, Integer.MAX_VALUE);
