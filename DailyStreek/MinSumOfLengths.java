@@ -34,7 +34,7 @@ class MinSumOfLengths {
 
             best[right] = minLength;
         }
-
+// end of the loop, return the minimum sum of lengths of two non-overlapping subarrays with sum equal to target, or -1 if no such subarrays exist
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
 }
