@@ -6,6 +6,7 @@ class MinSumOfLengths {
         
   
         int[] best = new int[n];
+        // best[i] = minimum length of a target-sum subarray ending at index i
         Arrays.fill(best, Integer.MAX_VALUE);
 
         int left = 0;
