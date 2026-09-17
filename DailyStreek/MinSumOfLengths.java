@@ -4,7 +4,7 @@ class MinSumOfLengths {
         int ans = Integer.MAX_VALUE;
 
         
-        // ending at or before index i
+  
         int[] best = new int[n];
         Arrays.fill(best, Integer.MAX_VALUE);
 
