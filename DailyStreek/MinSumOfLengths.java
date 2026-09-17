@@ -21,7 +21,6 @@ class MinSumOfLengths {
                 if (sum == target) {
                     int len = right - left + 1;
 
-                    // Check previous non-overlapping subarray
                     if (left > 0 && best[left - 1] != Integer.MAX_VALUE) {
                         ans = Math.min(ans, len + best[left - 1]);
                     }
