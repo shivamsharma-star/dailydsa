@@ -37,12 +37,11 @@ class Solution {
 
             boolean valid = true;
 
-            // interval expand karo
+          
             for (int j = l; j <= r; j++) {
 
                 int c = s.charAt(j) - 'a';
 
-                // Is character ki occurrence left side me hai
                 if (first[c] < l) {
                     valid = false;
                     break;
