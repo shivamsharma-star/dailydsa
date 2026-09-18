@@ -6,10 +6,9 @@ class Solution {
         int[] first = new int[26];
         int[] last = new int[26];
 
-        // first occurrence ko -1 se initialize
         Arrays.fill(first, -1);
 
-        // first and last occurrence
+        
         for (int i = 0; i < n; i++) {
             int c = s.charAt(i) - 'a';
 
@@ -24,10 +23,10 @@ class Solution {
 
         int prevEnd = -1;
 
-        // String ko left se right scan karo
+      
         for (int i = 0; i < n; i++) {
 
-            // Sirf first occurrence se substring start karenge
+            
             if (first[s.charAt(i) - 'a'] != i) {
                 continue;
             }
