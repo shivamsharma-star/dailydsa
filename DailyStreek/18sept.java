@@ -59,8 +59,7 @@ class Solution {
                     ans.add(s.substring(l, r + 1));
                     prevEnd = r;
                 } else {
-                    // Current interval shorter hai
-                    // to previous ko replace karo
+                    
                     ans.set(ans.size() - 1, s.substring(l, r + 1));
                     prevEnd = r;
                 }
