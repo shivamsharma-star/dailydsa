@@ -48,7 +48,7 @@ class Solution {
                     break;
                 }
 
-                // Is character ki last occurrence aur aage hai
+                
                 r = Math.max(r, last[c]);
             }
 
