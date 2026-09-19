@@ -8,7 +8,6 @@ class Solution {
         // Circle center ke nearest y-coordinate
         int closestY = Math.max(y1, Math.min(yCenter, y2));
 
-        // Distance squared
         int dx = xCenter - closestX;
         int dy = yCenter - closestY;
 
