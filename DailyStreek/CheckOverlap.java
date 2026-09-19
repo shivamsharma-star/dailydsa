@@ -5,7 +5,7 @@ class Solution {
 
         int closestX = Math.max(x1, Math.min(xCenter, x2));
 
-        // Circle center ke nearest y-coordinate
+        
         int closestY = Math.max(y1, Math.min(yCenter, y2));
 
         int dx = xCenter - closestX;
