@@ -5,7 +5,7 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
 
-            // reverse alphabet value: a=26, b=25, ..., z=1
+            
             int value = 'z' - c + 1;
 
            
