@@ -7,7 +7,7 @@ class Solution {
 
             
             int value = 'z' - c + 1;
-
+// calculate the reverse degree for the current character
            
             int position = i + 1;
 
