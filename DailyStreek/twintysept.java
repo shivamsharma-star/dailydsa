@@ -13,7 +13,7 @@ class Solution {
 
             sum += value * position;
         }
-
+// return the final sum
         return sum;
     }
 }
