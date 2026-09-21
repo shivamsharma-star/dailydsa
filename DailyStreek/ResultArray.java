@@ -31,7 +31,7 @@ public class Solution {
 
             dp = newDp;
         }
-
+// return the result array containing counts of subarrays for each remainder
         return result;
     }
 } 
