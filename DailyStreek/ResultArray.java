@@ -4,7 +4,7 @@ public class Solution {
         long[] result = new long[k];
 
         // dp[r] = current ending subarrays
-        // jinka product % k = r hai
+       
         long[] dp = new long[k];
 
         for (int num : nums) {
