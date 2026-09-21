@@ -7,7 +7,7 @@ public class Solution {
         
        
         long[] dp = new long[k];
-
+// loop through each number in the input array 
         for (int num : nums) {
 
             long[] newDp = new long[k];
