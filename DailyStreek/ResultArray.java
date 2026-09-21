@@ -1,4 +1,5 @@
 public class Solution {
+    // This problem asks us to find the count of all subarrays whose product is divisible by k.
     public long[] resultArray(int[] nums, int k) {
 
         long[] result = new long[k];
