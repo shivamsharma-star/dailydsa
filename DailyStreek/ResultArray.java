@@ -23,7 +23,7 @@ public class Solution {
                 newDp[newRemainder] += dp[r];
             }
 
-            // Sabhi subarrays ka answer mein count
+            
             for (int r = 0; r < k; r++) {
                 result[r] += newDp[r];
             }
@@ -33,6 +33,4 @@ public class Solution {
 
         return result;
     }
-} ResultArray {
-    
-}
+} 
