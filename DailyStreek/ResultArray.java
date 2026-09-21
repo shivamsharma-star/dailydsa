@@ -13,7 +13,7 @@ public class Solution {
 
             int mod = num % k;
 
-            // Sirf current element se naya subarray
+            
             newDp[mod] = 1;
 
           
