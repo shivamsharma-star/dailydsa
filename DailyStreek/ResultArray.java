@@ -16,7 +16,7 @@ public class Solution {
             // Sirf current element se naya subarray
             newDp[mod] = 1;
 
-            // Purane subarrays ko current num ke saath extend karo
+          
             for (int r = 0; r < k; r++) {
                 int newRemainder = (int)((1L * r * mod) % k);
 
