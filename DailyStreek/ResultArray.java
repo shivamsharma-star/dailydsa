@@ -3,7 +3,7 @@ public class Solution {
 
         long[] result = new long[k];
 
-        // dp[r] = current ending subarrays
+        
        
         long[] dp = new long[k];
 
