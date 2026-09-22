@@ -152,7 +152,7 @@ class Solution {
             tree[i] = new Node(k);
         }
 
-        // Build segment tree
+       
         build(1, 0, n - 1, nums);
 
         int[] ans = new int[queries.length];
