@@ -67,7 +67,6 @@ class Solution {
 
             tree[node].prod = value;
 
-            // Old count clear
             for (int i = 0; i < k; i++) {
                 tree[node].cnt[i] = 0;
             }
