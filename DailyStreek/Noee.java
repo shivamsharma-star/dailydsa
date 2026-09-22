@@ -112,7 +112,7 @@ class Solution {
         return combine(left, right);
     }
 
-    // ---------------- COMBINE QUERY RESULTS ----------------
+    
     Node combine(Node left, Node right) {
 
         Node res = new Node(k);
