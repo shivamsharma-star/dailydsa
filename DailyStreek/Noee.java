@@ -96,7 +96,6 @@ class Solution {
 
         int mid = (l + r) / 2;
 
-        // Only left
         if (qr <= mid) {
             return query(node * 2, l, mid, ql, qr);
         }
