@@ -90,7 +90,6 @@ class Solution {
   
     Node query(int node, int l, int r, int ql, int qr) {
 
-        // Complete range
         if (ql <= l && r <= qr) {
             return tree[node];
         }
