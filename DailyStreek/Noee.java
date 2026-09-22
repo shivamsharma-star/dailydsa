@@ -100,7 +100,7 @@ class Solution {
             return query(node * 2, l, mid, ql, qr);
         }
 
-        // Only right
+        
         if (ql > mid) {
             return query(node * 2 + 1, mid + 1, r, ql, qr);
         }
