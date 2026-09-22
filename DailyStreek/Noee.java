@@ -39,8 +39,6 @@ class Solution {
         Node right = tree[node * 2 + 1];
         Node cur = tree[node];
 
-        // IMPORTANT:
-        // Purane counts ko reset karo
         for (int i = 0; i < k; i++) {
             cur.cnt[i] = 0;
         }
