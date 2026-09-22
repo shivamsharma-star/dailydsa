@@ -32,7 +32,7 @@ class Solution {
         merge(node);
     }
 
-    // ---------------- MERGE ----------------
+   
     void merge(int node) {
 
         Node left = tree[node * 2];
