@@ -87,7 +87,7 @@ class Solution {
         merge(node);
     }
 
-    // ---------------- QUERY ----------------
+  
     Node query(int node, int l, int r, int ql, int qr) {
 
         // Complete range
