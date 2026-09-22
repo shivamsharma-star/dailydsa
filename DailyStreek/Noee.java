@@ -11,7 +11,6 @@ class Solution {
 
     int k;
     Node[] tree;
-
  
     void build(int node, int l, int r, int[] nums) {
 
@@ -121,10 +120,10 @@ class Solution {
 
         for (int rem = 0; rem < k; rem++) {
 
-            // Prefix completely in left
+            
             res.cnt[rem] += left.cnt[rem];
 
-            // Prefix starts in right
+       
             int newRem = (left.prod * rem) % k;
 
             res.cnt[newRem] += right.cnt[rem];
@@ -133,7 +132,7 @@ class Solution {
         return res;
     }
 
-    // ---------------- MAIN ----------------
+
     public int[] resultArray(int[] nums, int k, int[][] queries) {
 
         this.k = k;
