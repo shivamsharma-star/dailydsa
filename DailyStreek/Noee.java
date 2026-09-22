@@ -51,14 +51,14 @@ class Solution {
           
             cur.cnt[rem] += left.cnt[rem];
 
-            // Prefix right se start ho raha hai
+        
             int newRem = (left.prod * rem) % k;
 
             cur.cnt[newRem] += right.cnt[rem];
         }
     }
 
-    // ---------------- UPDATE ----------------
+    
     void update(int node, int l, int r, int index, int value) {
 
         if (l == r) {
