@@ -12,7 +12,7 @@ class Solution {
     int k;
     Node[] tree;
 
-    // ---------------- BUILD ----------------
+ 
     void build(int node, int l, int r, int[] nums) {
 
         if (l == r) {
@@ -147,7 +147,7 @@ class Solution {
 
         tree = new Node[4 * n];
 
-        // Har tree node ko initialize karo
+        
         for (int i = 0; i < tree.length; i++) {
             tree[i] = new Node(k);
         }
