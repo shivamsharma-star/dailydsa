@@ -167,7 +167,7 @@ class Solution {
             // Permanent update
             update(1, 0, n - 1, index, value);
 
-            // Query range [start ... n-1]
+            
             Node result = query(1, 0, n - 1, start, n - 1);
 
           
