@@ -43,12 +43,12 @@ class Solution {
             cur.cnt[i] = 0;
         }
 
-        // Complete segment ka product
+       
         cur.prod = (left.prod * right.prod) % k;
 
         for (int rem = 0; rem < k; rem++) {
 
-            // Prefix completely left mein hai
+          
             cur.cnt[rem] += left.cnt[rem];
 
             // Prefix right se start ho raha hai
