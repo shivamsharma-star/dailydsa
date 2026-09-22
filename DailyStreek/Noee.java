@@ -170,7 +170,7 @@ class Solution {
             // Query range [start ... n-1]
             Node result = query(1, 0, n - 1, start, n - 1);
 
-            // Number of prefixes having product % k == x
+          
             ans[i] = result.cnt[x];
         }
 
