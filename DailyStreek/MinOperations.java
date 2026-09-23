@@ -32,7 +32,7 @@ class Solution {
                 maxLen = Math.max(maxLen, right - left + 1);
             }
         }
-
+// return the minimum number of operations to reduce x to zero, which is the total length minus the length of the longest subarray that sums to target. If no such subarray exists, return -1.
         return maxLen == -1 ? -1 : n - maxLen;
     }
 }
