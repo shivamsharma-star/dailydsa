@@ -9,7 +9,6 @@ class Solution {
 
         int target = total - x;
 
-        // We need to remove everything.
         if (target < 0) {
             return -1;
         }
