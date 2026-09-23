@@ -13,7 +13,6 @@ class Solution {
             return -1;
         }
 
-        // Keep an empty subarray.
         if (target == 0) {
             return n;
         }
