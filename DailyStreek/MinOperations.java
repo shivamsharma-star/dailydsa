@@ -1,7 +1,7 @@
 class Solution {
     public int minOperations(int[] nums, int x) {
         int n = nums.length;
-
+//  if the total sum of the array is less than x, it's impossible to reduce x to zero, so return -1.
         int total = 0;
         for (int num : nums) {
             total += num;
