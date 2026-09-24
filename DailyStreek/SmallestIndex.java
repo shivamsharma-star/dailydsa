@@ -1,6 +1,6 @@
 class Solution {
     public int smallestIndex(int[] nums) {
-
+// iterate through the array to find the smallest index where the sum of digits equals the index
         for (int i = 0; i < nums.length; i++) {
 
             int n = nums[i];
