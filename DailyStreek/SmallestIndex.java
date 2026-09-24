@@ -5,7 +5,7 @@ class Solution {
 
             int n = nums[i];
             int sum = 0;
-
+// calculate the sum of digits of the number
             while (n > 0) {
                 sum += n % 10;
                 n /= 10;
