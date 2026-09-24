@@ -15,7 +15,7 @@ class Solution {
                 return i;
             }
         }
-
+// return -1 if no index found
         return -1;
     }
 }
