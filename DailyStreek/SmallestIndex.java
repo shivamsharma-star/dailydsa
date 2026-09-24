@@ -10,7 +10,7 @@ class Solution {
                 sum += n % 10;
                 n /= 10;
             }
-
+// check if the sum of digits equals the index
             if (sum == i) {
                 return i;
             }
