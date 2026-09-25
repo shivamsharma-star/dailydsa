@@ -53,7 +53,7 @@ class Solution {
 
             if (c == '{') {
 
-                index++;                 // skip '{'
+                index++;                 
                 next = parseUnion(s);
                 index++;                 // skip '}'
 
