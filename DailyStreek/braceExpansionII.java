@@ -26,7 +26,7 @@ class Solution {
             result.addAll(current);
 
             if (index < s.length() && s.charAt(index) == ',') {
-                index++;   // skip comma
+                index++;   
             } else {
                 break;
             }
