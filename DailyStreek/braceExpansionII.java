@@ -44,7 +44,7 @@ class Solution {
 
             char c = s.charAt(index);
 
-            // Stop concatenation
+        
             if (c == ',' || c == '}') {
                 break;
             }
