@@ -55,7 +55,7 @@ class Solution {
 
                 index++;                 
                 next = parseUnion(s);
-                index++;                 // skip '}'
+                index++;               
 
             } else {
 
