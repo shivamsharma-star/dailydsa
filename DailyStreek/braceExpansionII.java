@@ -59,7 +59,7 @@ class Solution {
 
             } else {
 
-                // Single character
+               
                 index++;
 
                 next = new HashSet<>();
