@@ -25,7 +25,7 @@ class Solution {
                 // Extract key
                 String key = s.substring(i + 1, j);
 
-                // Replace with value or ?
+             
                 ans.append(map.getOrDefault(key, "?"));
 
                 i = j + 1;
