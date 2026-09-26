@@ -22,7 +22,7 @@ class Solution {
                     j++;
                 }
 
-                // Extract key
+        
                 String key = s.substring(i + 1, j);
 
              
