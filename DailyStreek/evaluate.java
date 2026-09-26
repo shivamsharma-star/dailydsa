@@ -17,7 +17,7 @@ class Solution {
             if (s.charAt(i) == '(') {
                 int j = i + 1;
 
-                // Find closing bracket
+                
                 while (s.charAt(j) != ')') {
                     j++;
                 }
