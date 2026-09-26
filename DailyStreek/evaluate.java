@@ -1,7 +1,7 @@
 class Solution {
     public String evaluate(String s, List<List<String>> knowledge) {
         
-        // Store key -> value
+       
         Map<String, String> map = new HashMap<>();
         
         for (List<String> pair : knowledge) {
