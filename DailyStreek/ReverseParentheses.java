@@ -18,7 +18,7 @@ class Solution {
                 for (int i = 0; i < temp.length(); i++) {
                     stack.push(temp.charAt(i));
                 }
-
+// YGD
             } else {
                 stack.push(c);
             }
