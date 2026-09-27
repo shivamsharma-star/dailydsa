@@ -1,7 +1,7 @@
 class Solution {
     public String reverseParentheses(String s) {
         Stack<Character> stack = new Stack<>();
-
+// for (char c : s.toCharArray()) {
         for (char c : s.toCharArray()) {
 
             if (c == ')') {
