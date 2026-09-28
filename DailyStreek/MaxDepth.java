@@ -1,6 +1,7 @@
 class Solution {
     public int maxDepth(String s) {
         int depth = 0;
+        //  mAX
         int maxDepth = 0;
 // fyyydyydyd
         for (char c : s.toCharArray()) {
