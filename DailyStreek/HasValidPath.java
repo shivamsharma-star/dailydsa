@@ -57,7 +57,7 @@ class Solution {
         boolean down = false;
         boolean right = false;
 
-        // Move down
+       
         if (i + 1 < m) {
             down = dfs(i + 1, j, balance);
         }
