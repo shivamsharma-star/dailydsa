@@ -32,7 +32,7 @@ class Solution {
 
     private boolean dfs(int i, int j, int balance) {
 
-        // Current bracket
+        
         if (grid[i][j] == '(') {
             balance++;
         } else {
