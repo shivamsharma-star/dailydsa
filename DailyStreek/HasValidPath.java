@@ -66,7 +66,7 @@ class Solution {
         if (j + 1 < n) {
             right = dfs(i, j + 1, balance);
         }
-
+//  solved
         return dp[i][j][balance] = down || right;
     }
 }
