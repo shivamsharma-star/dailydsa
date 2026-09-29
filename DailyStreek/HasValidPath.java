@@ -39,7 +39,7 @@ class Solution {
             balance--;
         }
 
-        // Invalid prefix
+       
         if (balance < 0) {
             return false;
         }
