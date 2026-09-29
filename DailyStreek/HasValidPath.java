@@ -15,7 +15,7 @@ class Solution {
             return false;
         }
 
-        // First must be '('
+    
         if (grid[0][0] == ')') {
             return false;
         }
