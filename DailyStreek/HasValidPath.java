@@ -44,7 +44,7 @@ class Solution {
             return false;
         }
 
-        // Reached destination
+       
         if (i == m - 1 && j == n - 1) {
             return balance == 0;
         }
