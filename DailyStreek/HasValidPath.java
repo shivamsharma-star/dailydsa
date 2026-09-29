@@ -10,7 +10,7 @@ class Solution {
         m = grid.length;
         n = grid[0].length;
 
-        // Path length must be even
+        
         if ((m + n - 1) % 2 == 1) {
             return false;
         }
