@@ -62,7 +62,7 @@ class Solution {
             down = dfs(i + 1, j, balance);
         }
 
-        // Move right
+      
         if (j + 1 < n) {
             right = dfs(i, j + 1, balance);
         }
