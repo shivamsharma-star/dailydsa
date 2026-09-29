@@ -20,7 +20,7 @@ class Solution {
             return false;
         }
 
-        // Last must be ')'
+    
         if (grid[m - 1][n - 1] == '(') {
             return false;
         }
